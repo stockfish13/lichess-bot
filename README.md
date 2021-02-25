@@ -9,5 +9,7 @@ Run this in cmd `heroku stack:set container -a appname` replace app name with yo
 Connect app with Github and deploy app in Heroku.
 After deploying turn worker on in Resources menu in heroku. 
 ## INFO
-ENGINE STOCKFISH 13 SSE4.1 + POPCNT
-BOOK Aaricia_2012.bin
+THIS IS THE NEWEST VERSION OF OFFICIAL STOCKFISH SERVER WITH A EXTRA ALPHABETA SEARCH.
+THIS IS FULLY USING PHYTHON AND JAVA SCRIPT.
+BUT DONT WORRY.WE DONT HAVE TO DOWNLOAD PHYTHON.ORG OR JAVA.
+SO THIS RPEO MAKES THE BOT BETTER THAN EVER.
