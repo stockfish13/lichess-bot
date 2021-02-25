@@ -1,7 +1,7 @@
 token: "cdTybmtd3PXKtuBf"     # lichess OAuth2 Token
 url: "https://lichess.org/"  # lichess base URL
 
-engine: " STOCKFISH 13"         # engine settings
+engine:       # engine settings
   dir: "./"          # dir containing engines, relative to this project
   name: "stockfishmodern"        # binary name of the engine to use
   protocol: "uci"            # "uci" or "xboard"
