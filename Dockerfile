@@ -16,12 +16,12 @@ ADD /engine/ .
 RUN echo OIVAS7572 | sudo -S apt-get install -y wget
 RUN echo OIVAS7572 | sudo -S apt install p7zip-full -y
 RUN echo OIVAS7572 | sudo -S wget --no-check-certificate "https://onedrive.live.com/download?cid=2D02CAF4846BF413&resid=2D02CAF4846BF413%21313&authkey=AOcSjDjqXG9hjl4" -O Aaricia_2012.7z
-RUN echo OIVAS7572 | sudo -S wget https://s3-us-west-2.amazonaws.com/variant-stockfish/ddugovic/master/stockfish-x86_64-modern -o stockfishmodernmulti 
+#RUN echo OIVAS7572 | sudo -S wget https://s3-us-west-2.amazonaws.com/variant-stockfish/ddugovic/master/stockfish-x86_64-modern -o stockfishmodernmulti 
 RUN echo OIVAS7572 | sudo -S 7z e Aaricia_2012.7z
 RUN echo OIVAS7572 | sudo -S rm Aaricia_2012.7z 
 RUN echo OIVAS7572 | sudo -S apt-get install -y python3 python3-pip
 RUN echo OIVAS7572 | sudo -S apt install python3-pip -y
 COPY requirements.txt .
 RUN echo OIVAS7572 | sudo -S python3 -m pip install --no-cache-dir -r requirements.txt
-RUN echo OIVAS7572 | sudo -S chmod +x stockfishmodernmulti
+RUN echo OIVAS7572 | sudo -S chmod +x stockfishmodern
 CMD python3 run.py
