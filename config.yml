@@ -7,7 +7,7 @@ engine:                      # Engine settings.
   protocol: "uci"            # "uci" or "xboard"
   ponder: true               # Think on opponent's time.
   polyglot:
-    enabled: true           # Activate polyglot book.
+    enabled: false           # Activate polyglot book.
     book:
       standard:              # List of book file paths for variant standard.
         - Goi5.1.bin
@@ -26,8 +26,8 @@ engine:                      # Engine settings.
 #   Hash: 256  
   uci_options:               # Arbitrary UCI options passed to the engine.
     Move Overhead: 0       # Increase if your bot flags games too often.
-    Threads: 4               # Max CPU threads the engine can use.
-    Hash: 400                # Max memory (in megabytes) the engine can allocate.
+    Threads: 8               # Max CPU threads the engine can use.
+    Hash: 450                # Max memory (in megabytes) the engine can allocate.
 #   Clear Hash: true         # Clear the hash table
 #   go_commands:             # Additional options to pass to the UCI go command.
 #     nodes: 1               # Search so many nodes only.
