@@ -25,7 +25,7 @@ engine:                      # Engine settings
     weights: ./engine/703808.pb.gz  # Lc0 weights file path
 #   cpuct: 3.1
   uci_options:               # Arbitrary UCI options passed to the engine
-    MoveOverheadMs: 100      # Increase if your bot flags games too often
+    MoveOverheadMs: 25      # Increase if your bot flags games too often
     Threads: 7               # Max CPU threads the engine can use
     NNCacheSize: 128         # Max memory (in megabytes) the engine can allocate
 #   go_commands:             # Additional options to pass to the UCI go command
