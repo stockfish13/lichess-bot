@@ -54,7 +54,7 @@ rate_limiting_delay: 50       # Time (in ms) to delay after sending a move to pr
 correspondence:
     move_time: 60            # Time in seconds to search in correspondence games.
     checkin_period: 1200     # How often to check for opponent moves in correspondence games after disconnecting.
-    disconnect_time: 5       # Time before disconnecting from a correspondence game.
+    disconnect_time: 15       # Time before disconnecting from a correspondence game.
     ponder: false            # Ponder in correspondence games the bot is connected to.
 
 challenge:                   # Incoming challenges.
